@@ -84,7 +84,7 @@ const BoardList = () => {
                     <h3 className="text-xl capitalize font-semibold">{board.name}</h3>
                     <p className="text-gray-600">Manager: {board.projectManager}</p>
                     <p className="text-gray-600">Period: {board.projectPeriod}</p>
-                    <p className="text-gray-600">Technologies: {board.technologies}</p>
+                    <p className="text-gray-600">Technologies: {board.technologies.join(", ")}</p>
                   </div>
                 </div>
 

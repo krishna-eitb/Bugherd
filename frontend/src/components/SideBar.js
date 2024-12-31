@@ -10,7 +10,7 @@ const Sidebar = () => {
     <div className="w-[22%] sticky h-screen shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  flex flex-col items-center justify-between  p-6 ">
       {/* Logo */}
       <div className="text-3xl rounded-full bg-gray w-full font-bold text-center p-4  ">
-        <span className="">Bugherd</span>
+        <span className="">Scribble</span>
       </div>
 
       {/* Links */}
